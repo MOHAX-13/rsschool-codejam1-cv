@@ -1,3 +1,52 @@
-html, body {
-    width: 100%;
+* {
+  padding: 0;
+}
+
+body {
+  font: 16px 'Roboto';
+}
+
+header {
+  padding: 20px 0;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.conteiner {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.photo,
+.author {
+  display: inline-block;
+}
+
+.author {
+  margin-left: 15px;
+  vertical-align: top;
+}
+
+.author span {
+  color: #95a5a6
+}
+
+/* задаем свойства горизонтальной линии */
+
+hr {
+  border: none;
+  color: #eee;
+  background-color: #eee;
+  height: 3px;
 }
