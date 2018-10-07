@@ -51,3 +51,6 @@ hr {
   height: 3px;
 }
 
+li {
+  margin-inline-start: 1em;
+}
