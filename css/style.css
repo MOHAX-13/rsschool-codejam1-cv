@@ -54,3 +54,12 @@ hr {
 li {
   margin-inline-start: 1em;
 }
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/9202.otf) format("opentype");
+}
+
+p {
+    font-family: Helvetica, "Arial", sans-serif;
+}
